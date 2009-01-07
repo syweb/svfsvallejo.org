@@ -1,3 +1,19 @@
+/*-------- Table of Contents---------------
+
+			 1	Reset
+			 2	Layout
+			 3	Two Column
+			 4	Navigation
+			 5	Headings
+			 6	Content Elements
+			 7	Content List Items
+			 8	Navigation links
+			 9	Horizontal rule, clear
+			10	Box
+			11	Map
+			
+-------------------------------------------*/
+/*Reset*/
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin :0;padding :0;border :0;outline :0;font-weight :inherit;font-style :inherit;font-size :100%;font-family :inherit;vertical-align :baseline;}
 :focus{outline :0;}
 body{line-height :1;color :black;background :white;}
@@ -9,24 +25,34 @@ blockquote,q{quotes :"" "";}
 
 /*Layouts*/
 body{background:#e6edd8 url(../images/home_07.png); font:14px/18px Georgia, "Times New Roman", times, serif; color:#343;}
+a#logo{display:block; height:180px;}
 #container{background:transparent url(../images/header-tile.gif) repeat-x;}
 #page-wrap{width:860px; margin:0 auto; position:relative;}
 #content-wrap{position:absolute; top:240px;}
 #content{background:url(../images/content-mid.png) repeat-y center top; }
+#footer{text-align:center; font-size:12px; color:#426242; padding:20px 0; margin:17px 0 0 0; background:transparent url(../images/footer-bg.png) no-repeat scroll center top;}
 
-a#logo{display:block; height:180px;}
+/*Two Column*/
+.col1{width:44%; float:left;}
+.col2{width:56%; float:left;}
+
 /*Navigation*/
 #navigation ul{position:relative; width:450px;right:-400px;}
 #navigation ul li{display:inline;}
 #navigation ul li a{text-indent:-9999px;background-image:url(../images/navigation.png); background-repeat:no-repeat; float:left;height:42px;}
 
+/*Headings*/
 h2{font-size:18px; line-height:30px; color:#3c4e37; font-weight:bold;}
 h3{font-size:16px; line-height:20px; color:#2a522a;}
 
+/*Content Elements*/
 #content .last{margin-bottom:40px;}
 #content p{margin:20px 90px 20px 92px;}
 #content h2{background:url(../images/content-top.gif) no-repeat center top; padding:50px 90px 10px 92px ;}
+#content .col1 p{margin:20px 20px 20px 92px;}
+#content .col2 p{margin:20px 90px 20px 20px;}
 
+/*Content List-items*/
 #content ul.about{margin:20px 90px 40px 92px; }
 #content ul.contact{margin:20px 20px 20px 92px;}
 #content ul.contact li.section-break{margin-bottom:12px;}
@@ -34,12 +60,6 @@ h3{font-size:16px; line-height:20px; color:#2a522a;}
 #content ul.contact li b{color:#3c4e37;}
 
 #content ul.about li{background:transparent url(../images/bullet-2.gif) no-repeat left 3px; padding-left:18px; padding-bottom:6px;}
-
-.col1{width:44%; float:left;}
-.col2{width:56%; float:left;}
-
-#content .col1 p{margin:20px 20px 20px 92px;}
-#content .col2 p{margin:20px 90px 20px 20px;}
 
 /*Navigation links*/
 a#home{width:100px;}
@@ -62,9 +82,12 @@ li.current a#about{background-position: -100px -44px}
 li.current a#faith{background-position: -203px -44px}
 li.current a#contact{background-position: -282px -44px}
 
+/*Horizontal rule, clear*/
 .hr{background:url(../images/content-bottom.png) no-repeat 50% top; height:60px; clear:both;}
 .hr hr{visibility:hidden;}
+.clear{clear:both;}
 
+/*Box*/
 .box{margin:0 92px; background:transparent url(../images/box-mid.png) repeat-y top left;}
 .box h3{padding:16px 20px; background:transparent url(../images/box-top.png) no-repeat top left;}
 .box ul{padding:0px 20px 30px 20px; margin:0 0 40px 0; background:transparent url(../images/box-bottom.png) no-repeat bottom left;}
@@ -75,17 +98,13 @@ li.current a#contact{background-position: -282px -44px}
 .box a:hover{text-decoration:underline;}
 .box a:active, .box a:focus{text-decoration:underline;}
 
-#footer{text-align:center; font-size:12px; color:#426242; padding:20px 0; margin:17px 0 0 0; background:transparent url(../images/footer-bg.png) no-repeat scroll center top;}
-
-
+/*Map*/
 .map{width:404px; border-right:1px solid #d9d9d9;border-bottom:1px solid #d9d9d9;}
 .map-inner{border:2px solid #fff;  background:#f2f6ea;}
+
 .larger-map{display:block; background:#fff; padding:3px 10px 3px 3px; text-align:right;}
 .larger-map a{color:#426242; font-size:12px; text-decoration:none;}
 .larger-map a:hover{text-decoration:underline;}
-
-.clear{clear:both;}
-
 
 
 
