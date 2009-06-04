@@ -59,9 +59,11 @@ filter:alpha(opacity=70);}
 #leftbar ul.mainlinks li.currentTall a{background:url('../images/leftbar-li-sel-tall.gif'); color:#fff;}
 #leftbar ul.mainlinks li.tall a{line-height:19px;}
 
-#leftbar .top{background:url('../images/leftbar-top.jpg') no-repeat left top; height:10px;}
+#leftbar .top{background:url('../images/leftbar-top.jpg') no-repeat left top; height:10px; line-height:10px;}
 #leftbar .mid{background:url('../images/leftbar-mid.jpg') repeat-y left bottom;padding:6px 12px 0;}
 #leftbar .bottom{background:url('../images/leftbar-bottom.jpg') no-repeat left bottom; height:17px;}
+
+/** html #leftbar .top{position:relative; top:10px;}*/
 
 #leftbar h4{padding:12px 0 12px 12px; font-weight:bold;}
 #leftbar .sublinks{padding:0 0 0 12px; font-size:12px; margin: 0 0 12px 0;}
