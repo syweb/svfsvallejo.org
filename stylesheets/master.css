@@ -186,8 +186,10 @@ li.current   a#admission{background-position: -678px -86px; width:122px;}
 
 
 
-
-
+#leftbar .sublinks li.sylogin{list-style-type:none;}
+.sylogin a{display:block; width:155px; height:24px; background:url('../images/loginimage.png'); text-indent:-9999px;}
+.sylogin a:hover{background-position:0 -24px;}
+.sylogin a:active{background-position:0 -48px;}
 
 
 
